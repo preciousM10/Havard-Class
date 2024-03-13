@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Hello</title>
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+    <style>
+        /* this problem can be solved using specificity
+        that is it will appear according hierarchy order
+            inline
+            id
+            class
+            types
+        so id is higher than tpes the color would appear red */
+        h1{
+            color: blue;
+        }
+        #foo{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    
+    <h1 id="foo">Heading 1</h1>
+    
+    Hello, World!
+</body>
+</html>
